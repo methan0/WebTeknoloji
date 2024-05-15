@@ -1,0 +1,82 @@
+body {
+	background: #1690A7;
+	display: flex;
+	justify-content: center;/*Öğelerin flex containerda hizalanmasını ayarlar*/
+	align-items: center;/*Flex container içindeki flex öğelerin dikey hizanmasını ayarlar*/
+	height: 100vh;/*Viewport heigh (görünüm yüksekliği yüzde %100)*/
+	flex-direction: column;/*Öğelerin  nasıl sıralanacağını ayarlar (yukarıdan aşağıya)*/
+}
+
+/*Tüm HTML öğelerinin css özelliklerini belirler*/
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+	
+}
+
+form {
+	width: 500px;
+	border: 2px solid #ccc;
+	padding: 30px;
+	background: #fff;
+	border-radius: 15px;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+input {
+	display: block;
+	border: 2px solid #ccc;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+label {
+	color: #000000;
+	font-size: 18px;
+	padding: 10px;
+}
+
+button {
+	float: right;
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+}
+button:hover{
+	opacity: .8;/*HTML öğesinin opaklık seviyesini belirler 0 ile 1 arasında değer alır rgb de 4. eleman*/
+}
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+}
+
+a {
+	float: right;/*Öğe normal akıştan çıkar diğer öğelerin sağ ya da sol kenarına yüzen bir konum almasını sağlar*/
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+	text-decoration: none;/*Metin öğelerinin altını çizmek için kullanılır*/
+}
+a:hover{
+	opacity: .7;
+}
