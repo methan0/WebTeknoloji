@@ -1,0 +1,32 @@
+form {
+    width: 301px;
+    margin: 0 auto;/*Dış çevreyle diğer öğeler arasındaki uzaklığı belirlemek için kullanılır*/
+}
+
+
+input[type="submit"] {
+    padding: 13px 22px;
+    background-color: #16e51d;
+    border: none; /*Öğenin etrafına kenar eklemek için kullanılır*/
+    cursor: pointer;/*Fare imlecinin üzerinde öğe ile ne tür bir etkileşimde bulunabileceğini gösterir,imleç el gösterir*/
+    color: white;
+
+}
+label {
+    display: block;/*Öğenin blok düzeninde mi satır düzeninde mi görüntüleneceğini belirler*/
+    font-weight: bold;
+    margin-bottom: 12px;
+
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 6px;/*Öğenin içerik ile çevre arasındaki mesafeyi ayarlar*/
+}
+
+input[type="submit"]:hover {
+    background-color: #13be19;
+}
